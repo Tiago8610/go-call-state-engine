@@ -1,1 +1,1 @@
-# go-call-state-engine
+This sample demonstrates idempotent processing of asynchronous telephony events using Go, PostgreSQL row locking and explicit state transitions. It is designed around at-least-once event delivery where duplicate and out-of-order events are expected.
